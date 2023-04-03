@@ -21,8 +21,7 @@ function App() {
       <div className="container">
         <Form
           result={result}
-          calculateResult={calculateResult}
-        />
+          calculateResult={calculateResult} />
         <p className="container__paragraph">
           * Wymagane pole; Kurs z dnia 05.02.2023
         </p>

@@ -2,7 +2,7 @@
   "name": "currency-converter-app",
   "version": "0.1.0",
   "private": true,
-  "currency-converter-app": "https://dorotazielinska12.github.io/CurrencyConverter-React/",
+  "homepage": "https://dorotazielinska12.github.io/CurrencyConverter-React/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

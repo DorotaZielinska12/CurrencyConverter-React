@@ -22,7 +22,7 @@ export const Form = ({ calculateResult, result }) => {
                     </label>
                 </p>
                 <p>
-                    <label> 
+                    <label>
                         <span className="form__labelText">Wybierz Walute:</span>
                         <select className="form__field" name="currency"
                             value={currency}
@@ -40,7 +40,7 @@ export const Form = ({ calculateResult, result }) => {
                     </label>
                 </p>
                 <p>
-                    <label> 
+                    <label>
                         <span className="form__labelText"> Wynik:</span>
                         <input
                             value={amount}
@@ -51,7 +51,7 @@ export const Form = ({ calculateResult, result }) => {
                             step="any"
                             requred
                             disabled />
-                            <Result result={result} />
+                        <Result result={result} />
                     </label>
                 </p>
             </fieldset>
