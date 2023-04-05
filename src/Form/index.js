@@ -50,8 +50,9 @@ export const Form = ({ calculateResult, result }) => {
                             name="result"
                             step="any"
                             requred
-                            disabled />
-                            <Result result={result} />
+                            disabled
+                        />
+                        <Result result={result} />
                     </label>
                 </p>
             </fieldset>
