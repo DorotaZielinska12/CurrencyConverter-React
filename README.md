@@ -4,7 +4,7 @@
 
 https://dorotazielinska12.github.io/CurrencyConverter-React/
 
-![](images/image.jpg)
+![](public/images/image.jpg)
 
 # Description
 
