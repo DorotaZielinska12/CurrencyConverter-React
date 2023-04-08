@@ -4,7 +4,7 @@
 
 https://dorotazielinska12.github.io/CurrencyConverter-React/
 
-![](image/image.jpg)
+![](images/image.jpg)
 
 # Description
 
@@ -13,9 +13,12 @@ Currency converter is the project made within the course YouCode Frontend Develo
 # Tools used in this project
 
 - HTML
-- JavaScript
+- Java Script
+- ES6+
 - CSS
-- Flex
+- React
+- Babel
+- Webpack
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
