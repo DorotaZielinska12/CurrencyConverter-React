@@ -1,19 +1,21 @@
-<<<<<<< HEAD
-# Currency Coverter React
+# Currency Converter
 
-## DEMO
+## Demo
 
 https://dorotazielinska12.github.io/CurrencyConverter-React/
 
+![](image/image.jpg)
 
+# Description
 
+Currency converter is the project made within the course YouCode Frontend Developer. It allows you to convert PLN zloty to another currency such as EUR USD or GBP.
 
-=======
-# DEMO
-https://dorotazielinska12.github.io/CurrencyConverter-React/
+# Tools used in this project
 
->>>>>>> 591c728cb6e60e1806e8c25cf4e48795f717b556
-# Getting Started with Create React App
+- HTML
+- JavaScript
+- CSS
+- Flex
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -39,8 +41,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-
-<<<<<<< HEAD
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
@@ -49,5 +49,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-=======
->>>>>>> 591c728cb6e60e1806e8c25cf4e48795f717b556
+
