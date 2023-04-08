@@ -1,6 +1,7 @@
 import Form from "./Form";
 import React, { useState } from "react";
 import { currencies } from "./currencies";
+import "./App.css";
 
 function App() {
 
@@ -12,21 +13,19 @@ function App() {
       .rate;
 
     setResult({
-      targetAmount: amount / rate
+      sourceAmount: +amount,
+      targetAmount: amount / rate,
+      currency,
     });
   }
 
   return (
-    <body className="body">
-      <div className="container">
-        <Form
-          result={result}
-          calculateResult={calculateResult} />
-        <p className="container__paragraph">
-          * Wymagane pole; Kurs z dnia 05.02.2023
-        </p>
-      </div>
-    </body>
+    <div className="app">
+      <Form
+        result={result}
+        calculateResult={calculateResult}
+      />
+    </div>
   );
 }
 
