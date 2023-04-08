@@ -1,7 +1,13 @@
+.form {
+    display: block;
+    margin-top: 0 auto;
+}
+
 .form__labelText {
     width: 100%;
     max-width: 150px;
     display: inline-block;
+    margin: 5px;
 }
 
 .form__field {
@@ -20,6 +26,7 @@
     border-radius: 10px;
     margin-top: 20px;
     background-color: rgb(108, 121, 108);
+    transition: 0.5s;
 }
 
 .form__button:hover {
@@ -28,13 +35,6 @@
 
 .form__button:active {
     background-color: rgb(200, 212, 200);
-}
-
-.form__fieldset {
-    border: 2px solid #0e0f0f;
-    padding: 15xp;
-    border-radius: 10px;
-    box-shadow: 10px 5px 10px rgb(108, 121, 108);
 }
 
 .form__legend {
@@ -47,8 +47,9 @@
 
 .container__paragraph {
     margin-top: 10px;
+    text-align: center;
 }
 
-.form__field--special {
-    background-color: aliceblue;
+.form__result {
+    font-size: 30px;
 }
