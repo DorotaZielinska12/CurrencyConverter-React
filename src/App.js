@@ -4,7 +4,6 @@ import { currencies } from "./currencies";
 import "./App.css";
 
 function App() {
-
   const [result, setResult] = useState();
 
   const calculateResult = (currency, amount) => {
