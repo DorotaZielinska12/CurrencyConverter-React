@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./style.css";
 
 export const Clock = () => {
-
     const [date, setDate] = useState(new Date());
 
     useEffect(() => {
@@ -17,14 +16,17 @@ export const Clock = () => {
 
     return (
         <div className="clock">
-            {date.toLocaleString(undefined, {
-                hour: "2-digit",
-                minute: "2-digit",
-                second: "2-digit",
-                day: "numeric",
-                month: "long",
-                year: "numeric"
-            })}
+            {date.toLocaleString(undefined,
+                {
+                    hour: "2-digit",
+                    minute:
+            "2-digit",
+                    second:
+            "2-digit",
+                    day: "numeric",
+                    month: "long",
+                    year: "numeric"
+                })}
         </div>
     )
 }

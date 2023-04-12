@@ -1,5 +1,5 @@
 import "./style.css";
-import React, { useState } from "react";
+import { useState } from "react";
 import { currencies } from "../currencies";
 import { Result } from "./Result";
 
@@ -14,9 +14,6 @@ export const Form = ({ calculateResult, result }) => {
 
     return (
         <form className="form" onSubmit={onSubmit}>
-            <h1 className="form__header">
-                KALKULATOR WALUT
-            </h1>
             <p>
                 <label>
                     <span className="form__labelText">
