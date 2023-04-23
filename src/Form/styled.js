@@ -13,23 +13,23 @@ export const LabelText = styled.span`
 `;
 
 export const FormInput = styled.input`
-    border: 2px solid #191c1a;
+    border: 2px solid ${({ theme }) => theme.color.black};
     padding: 15xp;
     height: 35px;
     width: 100%;
     max-width: 400px;
     border-radius: 10px;
-    box-shadow: 10px 5px 10px rgb(108, 121, 108);
+    box-shadow: 10px 5px 10px ${({ theme }) => theme.color.rollingStone};
 `;
 
 export const FormSelect = styled.select`
-    border: 2px solid #191c1a;
+    border: 2px solid ${({ theme }) => theme.color.black};
     padding: 15xp;
     height: 35px;
     width: 100%;
     max-width: 400px;
     border-radius: 10px;
-    box-shadow: 10px 5px 10px rgb(108, 121, 108);
+    box-shadow: 10px 5px 10px ${({ theme }) => theme.color.rollingStone};
 `;
 
 export const FormButton = styled.button`
@@ -37,15 +37,15 @@ export const FormButton = styled.button`
     padding: 7PX;
     border-radius: 10px;
     margin-top: 20px;
-    background-color: rgb(108, 121, 108);
+    background-color: ${({ theme }) => theme.color.rollingStone};
     transition: 0.5s;
 
     &:hover {
-            filter: brightness(110%);
+            filter: brightness(120%);
         }
 
         &:active {
-            filter: brightness(120%);
+            filter: brightness(140%);
         }
 `;
 
