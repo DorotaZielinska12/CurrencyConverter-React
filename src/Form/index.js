@@ -1,7 +1,7 @@
-import "./style.css";
 import { useState } from "react";
 import { currencies } from "../currencies";
 import { Result } from "./Result";
+import { Wrapper, LabelText, FormInput, FormSelect, FormButton, Paragraf } from "./styled";
 
 export const Form = ({ calculateResult, result }) => {
     const [currency, setCurrency] = useState(currencies[0].short);
@@ -13,17 +13,16 @@ export const Form = ({ calculateResult, result }) => {
     }
 
     return (
-        <form className="form" onSubmit={onSubmit}>
+        <Wrapper onSubmit={onSubmit}>
             <p>
                 <label>
-                    <span className="form__labelText">
+                    <LabelText>
                         Waluta PLN*:
-                    </span>
-                    <input
+                    </LabelText>
+                    <FormInput
                         value={amount}
                         onChange={({ target }) => setAmount(target.value)}
                         placeloder="Wpisz kwote w zlotowkach"
-                        className="form__field"
                         type="number"
                         name="amount"
                         min="1"
@@ -34,11 +33,10 @@ export const Form = ({ calculateResult, result }) => {
             </p>
             <p>
                 <label>
-                    <span className="form__labelText">
+                    <LabelText>
                         Wybierz Walute:
-                    </span>
-                    <select
-                        className="form__field"
+                    </LabelText>
+                    <FormSelect
                         value={currency}
                         onChange={({ target }) => setCurrency(target.value)}
                     >
@@ -50,18 +48,18 @@ export const Form = ({ calculateResult, result }) => {
                                 {currency.name}
                             </option>
                         )))}
-                    </select>
+                    </FormSelect>
                 </label>
             </p>
             <p>
-                <button className="form__button">Przelicz
-                </button>
+                <FormButton>Przelicz
+                </FormButton>
             </p>
             <Result result={result} />
-            <p className="container__paragraph">
+            <Paragraf>
                 * Wymagane pole; Kurs walutowy z dnia 05.02.2023
-            </p>
-        </form >
+            </Paragraf>
+        </Wrapper>
     );
 };
 

@@ -2,7 +2,8 @@ import Form from "./Form";
 import { useState } from "react";
 import { Clock } from "./Clock";
 import { currencies } from "./currencies";
-import "./App.css";
+import { Wrapper } from "./AppStyled";
+
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <Wrapper>
       <Clock />
       <h1 className="form__header">
                 KALKULATOR WALUT
@@ -30,7 +31,7 @@ function App() {
         result={result}
         calculateResult={calculateResult}
       />
-    </div>
+    </Wrapper>
   );
 }
 
