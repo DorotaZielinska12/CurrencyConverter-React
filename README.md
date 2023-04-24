@@ -13,14 +13,21 @@ Currency converter is the project made within the course YouCode Frontend Develo
 # Tools used in this project
 
 - HTML
-- Java Script
+- Java Script 
 - ES6+
 - CSS
+- BEM
+- Grid
 - React
 - Babel
 - Webpack
+<<<<<<< HEAD
 - Styled Components
 - Custom Hook
+=======
+- Custom Hook
+- Styled Components
+>>>>>>> 1638abab4a71ddf0055258ac819db0eb9eadd2a9
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
