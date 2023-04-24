@@ -1,4 +1,4 @@
-import { Div } from "./styled";
+import { StyledClock } from "./styled";
 import { useCurrentDate } from "./useCurrentDate";
 
 const formatDate = (date) => date.toLocaleString(undefined, {
@@ -16,8 +16,8 @@ export const Clock = () => {
     const date = useCurrentDate();
   
     return (
-       <Div>
+       <StyledClock>
            {formatDate(date)}
-       </Div>
+       </StyledClock>
     )
   };

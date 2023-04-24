@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { currencies } from "../currencies";
 import { Result } from "./Result";
-import { Wrapper, LabelText, FormInput, FormSelect, FormButton, Paragraf } from "./styled";
+import { StyledForm, LabelText, FormInput, FormSelect, FormButton, Paragraf } from "./styled";
 
 export const Form = ({ calculateResult, result }) => {
     const [currency, setCurrency] = useState(currencies[0].short);
@@ -13,7 +13,7 @@ export const Form = ({ calculateResult, result }) => {
     }
 
     return (
-        <Wrapper onSubmit={onSubmit}>
+        <StyledForm onSubmit={onSubmit}>
             <p>
                 <label>
                     <LabelText>
@@ -59,7 +59,7 @@ export const Form = ({ calculateResult, result }) => {
             <Paragraf>
                 * Wymagane pole; Kurs walutowy z dnia 05.02.2023
             </Paragraf>
-        </Wrapper>
+        </StyledForm>
     );
 };
 

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.form`
+export const StyledForm = styled.form`
     display: block;
     margin-top: 0 auto;
 `;
