@@ -21,13 +21,10 @@ Currency converter is the project made within the course YouCode Frontend Develo
 - React
 - Babel
 - Webpack
-<<<<<<< HEAD
-- Styled Components
-- Custom Hook
-=======
-- Custom Hook
-- Styled Components
->>>>>>> 1638abab4a71ddf0055258ac819db0eb9eadd2a9
+- Custom Hooks
+- Styled component
+- Normalize
+- API
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

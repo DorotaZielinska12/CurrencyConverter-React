@@ -53,3 +53,16 @@ export const Paragraf = styled.p`
     margin-top: 10px;
     text-align: center;
 `;
+
+export const Header = styled.h1`
+    text-align: center;
+    color: ${({ theme }) => theme.color.black};
+`;
+
+export const Loading = styled.p`
+color: ${({ theme }) => theme.color.black};
+`;
+
+export const Fails = styled.p`
+color: ${({ theme }) => theme.color.monza};
+`;
