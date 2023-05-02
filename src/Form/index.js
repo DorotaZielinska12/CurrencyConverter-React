@@ -10,8 +10,9 @@ import {
     Paragraf,
     Header,
     Loading,
-    Fails
+    ErrorMessage
 } from "./styled";
+
 
 export const Form = () => {
     const [result, setResult] = useState();
@@ -48,9 +49,9 @@ export const Form = () => {
                 )
                 : (
                     ratesData.state === "error" ? (
-                        <Fails>
+                        <ErrorMessage>
                             Wystapil blad, prosze spradzic polaczenie internetowe!
-                        </Fails>
+                        </ErrorMessage>
                     ) : (
                         <>
                             <p>

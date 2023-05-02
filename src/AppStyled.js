@@ -8,7 +8,3 @@ export const Wrapper = styled.div`
     border-radius: 20px;
 `;
 
-export const Header = styled.h1`
-    text-align: center;
-    color: ${({ theme }) => theme.color.black};
-`;
