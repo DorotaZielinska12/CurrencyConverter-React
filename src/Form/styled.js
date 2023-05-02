@@ -63,6 +63,6 @@ export const Loading = styled.p`
 color: ${({ theme }) => theme.color.black};
 `;
 
-export const Fails = styled.p`
+export const ErrorMessage = styled.p`
 color: ${({ theme }) => theme.color.monza};
 `;
